@@ -1,0 +1,101 @@
+
+[2016-08-24 17:52:39] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Class 'MessageFormatter' not found in /var/www/html/newproject/system/Core/Language.php:172
+Stack trace:
+#0 /var/www/html/newproject/system/functions.php(113): Core\Language->translate('Elapsed Time: <...', Array)
+#1 /var/www/html/newproject/system/Helpers/Profiler.php(49): __d('nova', 'Elapsed Time: <...', '0.7486', '1.10MB', 0, 'queries', '33')
+#2 /var/www/html/newproject/app/Extensions/Http/ContentGuard.php(92): Helpers\Profiler::getReport()
+#3 /var/www/html/newproject/app/Extensions/Http/ContentGuard.php(64): App\Extensions\Http\ContentGuard->processContent(Object(Http\Response))
+#4 /var/www/html/newproject/system/Session/Middleware.php(72): App\Extensions\Http\ContentGuard->handle(Object(Http\Request), 1, true)
+#5 /var/www/html/newproject/system/Cookie/Queue.php(49): Session\Middleware->handle(Object(Http\Request), 1, true)
+#6 /var/www/html/newproject/system/Cookie/Guard.php(54): Cookie\Queue->handle(Object(Http\Request), 1, true)
+#7 /var/www/html/newproject/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Cookie\Guard->handle(Object(Http\Request), 1, true)
+#8 /var/www/html/newproject/system/Foundation/Application.php(555): Stack\StackedHttpKernel->handle(Object(Http\Request))
+#9 /var/www/html/newproject/app/Boot/Start.php(284): Foundation\Application->run()
+#10 /var/www/html/newproject/public/index.php(37): require('/var/www/html/n...')
+#11 {main} [] []
+[2016-08-24 18:13:28] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Class 'MessageFormatter' not found in /var/www/html/newproject/system/Core/Language.php:172
+Stack trace:
+#0 /var/www/html/newproject/system/functions.php(113): Core\Language->translate('Elapsed Time: <...', Array)
+#1 /var/www/html/newproject/system/Helpers/Profiler.php(49): __d('nova', 'Elapsed Time: <...', '0.0275', '0.96MB', 0, 'queries', '909')
+#2 /var/www/html/newproject/app/Extensions/Http/ContentGuard.php(92): Helpers\Profiler::getReport()
+#3 /var/www/html/newproject/app/Extensions/Http/ContentGuard.php(64): App\Extensions\Http\ContentGuard->processContent(Object(Http\Response))
+#4 /var/www/html/newproject/system/Session/Middleware.php(72): App\Extensions\Http\ContentGuard->handle(Object(Http\Request), 1, true)
+#5 /var/www/html/newproject/system/Cookie/Queue.php(49): Session\Middleware->handle(Object(Http\Request), 1, true)
+#6 /var/www/html/newproject/system/Cookie/Guard.php(54): Cookie\Queue->handle(Object(Http\Request), 1, true)
+#7 /var/www/html/newproject/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Cookie\Guard->handle(Object(Http\Request), 1, true)
+#8 /var/www/html/newproject/system/Foundation/Application.php(555): Stack\StackedHttpKernel->handle(Object(Http\Request))
+#9 /var/www/html/newproject/app/Boot/Start.php(284): Foundation\Application->run()
+#10 /var/www/html/newproject/public/index.php(37): require('/var/www/html/n...')
+#11 {main} [] []
+[2016-08-25 03:38:32] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Class 'MessageFormatter' not found in /var/www/html/newproject/system/Core/Language.php:172
+Stack trace:
+#0 /var/www/html/newproject/system/functions.php(113): Core\Language->translate('Elapsed Time: <...', Array)
+#1 /var/www/html/newproject/system/Helpers/Profiler.php(49): __d('nova', 'Elapsed Time: <...', '0.5341', '1.23MB', 0, 'queries', '46')
+#2 /var/www/html/newproject/app/Extensions/Http/ContentGuard.php(92): Helpers\Profiler::getReport()
+#3 /var/www/html/newproject/app/Extensions/Http/ContentGuard.php(64): App\Extensions\Http\ContentGuard->processContent(Object(Http\Response))
+#4 /var/www/html/newproject/system/Session/Middleware.php(72): App\Extensions\Http\ContentGuard->handle(Object(Http\Request), 1, true)
+#5 /var/www/html/newproject/system/Cookie/Queue.php(49): Session\Middleware->handle(Object(Http\Request), 1, true)
+#6 /var/www/html/newproject/system/Cookie/Guard.php(54): Cookie\Queue->handle(Object(Http\Request), 1, true)
+#7 /var/www/html/newproject/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Cookie\Guard->handle(Object(Http\Request), 1, true)
+#8 /var/www/html/newproject/system/Foundation/Application.php(555): Stack\StackedHttpKernel->handle(Object(Http\Request))
+#9 /var/www/html/newproject/app/Boot/Start.php(284): Foundation\Application->run()
+#10 /var/www/html/newproject/public/index.php(37): require('/var/www/html/n...')
+#11 {main} [] []
+[2016-08-25 04:14:20] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Class 'MessageFormatter' not found in /var/www/html/newproject/system/Core/Language.php:172
+Stack trace:
+#0 /var/www/html/newproject/system/functions.php(113): Core\Language->translate('Elapsed Time: <...', Array)
+#1 /var/www/html/newproject/system/Helpers/Profiler.php(49): __d('nova', 'Elapsed Time: <...', '0.1615', '1.23MB', 0, 'queries', '154')
+#2 /var/www/html/newproject/app/Extensions/Http/ContentGuard.php(92): Helpers\Profiler::getReport()
+#3 /var/www/html/newproject/app/Extensions/Http/ContentGuard.php(64): App\Extensions\Http\ContentGuard->processContent(Object(Http\Response))
+#4 /var/www/html/newproject/system/Session/Middleware.php(72): App\Extensions\Http\ContentGuard->handle(Object(Http\Request), 1, true)
+#5 /var/www/html/newproject/system/Cookie/Queue.php(49): Session\Middleware->handle(Object(Http\Request), 1, true)
+#6 /var/www/html/newproject/system/Cookie/Guard.php(54): Cookie\Queue->handle(Object(Http\Request), 1, true)
+#7 /var/www/html/newproject/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Cookie\Guard->handle(Object(Http\Request), 1, true)
+#8 /var/www/html/newproject/system/Foundation/Application.php(555): Stack\StackedHttpKernel->handle(Object(Http\Request))
+#9 /var/www/html/newproject/app/Boot/Start.php(284): Foundation\Application->run()
+#10 /var/www/html/newproject/public/index.php(37): require('/var/www/html/n...')
+#11 {main} [] []
+[2016-08-25 04:32:38] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Class 'MessageFormatter' not found in /var/www/html/newproject/system/Core/Language.php:172
+Stack trace:
+#0 /var/www/html/newproject/system/functions.php(113): Core\Language->translate('Elapsed Time: <...', Array)
+#1 /var/www/html/newproject/system/Helpers/Profiler.php(49): __d('nova', 'Elapsed Time: <...', '0.5340', '0.95MB', 0, 'queries', '46')
+#2 /var/www/html/newproject/app/Extensions/Http/ContentGuard.php(92): Helpers\Profiler::getReport()
+#3 /var/www/html/newproject/app/Extensions/Http/ContentGuard.php(64): App\Extensions\Http\ContentGuard->processContent(Object(Http\Response))
+#4 /var/www/html/newproject/system/Session/Middleware.php(72): App\Extensions\Http\ContentGuard->handle(Object(Http\Request), 1, true)
+#5 /var/www/html/newproject/system/Cookie/Queue.php(49): Session\Middleware->handle(Object(Http\Request), 1, true)
+#6 /var/www/html/newproject/system/Cookie/Guard.php(54): Cookie\Queue->handle(Object(Http\Request), 1, true)
+#7 /var/www/html/newproject/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Cookie\Guard->handle(Object(Http\Request), 1, true)
+#8 /var/www/html/newproject/system/Foundation/Application.php(555): Stack\StackedHttpKernel->handle(Object(Http\Request))
+#9 /var/www/html/newproject/app/Boot/Start.php(284): Foundation\Application->run()
+#10 /var/www/html/newproject/public/index.php(37): require('/var/www/html/n...')
+#11 {main} [] []
+[2016-08-25 05:03:54] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Class 'MessageFormatter' not found in /var/www/html/newproject/system/Core/Language.php:172
+Stack trace:
+#0 /var/www/html/newproject/system/functions.php(113): Core\Language->translate('Elapsed Time: <...', Array)
+#1 /var/www/html/newproject/system/Helpers/Profiler.php(49): __d('nova', 'Elapsed Time: <...', '2.6338', '0.96MB', 0, 'queries', '9')
+#2 /var/www/html/newproject/app/Extensions/Http/ContentGuard.php(92): Helpers\Profiler::getReport()
+#3 /var/www/html/newproject/app/Extensions/Http/ContentGuard.php(64): App\Extensions\Http\ContentGuard->processContent(Object(Http\Response))
+#4 /var/www/html/newproject/system/Session/Middleware.php(72): App\Extensions\Http\ContentGuard->handle(Object(Http\Request), 1, true)
+#5 /var/www/html/newproject/system/Cookie/Queue.php(49): Session\Middleware->handle(Object(Http\Request), 1, true)
+#6 /var/www/html/newproject/system/Cookie/Guard.php(54): Cookie\Queue->handle(Object(Http\Request), 1, true)
+#7 /var/www/html/newproject/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Cookie\Guard->handle(Object(Http\Request), 1, true)
+#8 /var/www/html/newproject/system/Foundation/Application.php(555): Stack\StackedHttpKernel->handle(Object(Http\Request))
+#9 /var/www/html/newproject/app/Boot/Start.php(284): Foundation\Application->run()
+#10 /var/www/html/newproject/public/index.php(37): require('/var/www/html/n...')
+#11 {main} [] []
+[2016-08-26 15:23:35] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'MessageFormatter' not found' in /var/www/html/newproject/system/Core/Language.php:172
+Stack trace:
+#0 [internal function]: Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-08-26 15:28:27] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'MessageFormatter' not found' in /var/www/html/newproject/system/Core/Language.php:172
+Stack trace:
+#0 [internal function]: Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-08-26 15:29:04] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'MessageFormatter' not found' in /var/www/html/newproject/system/Core/Language.php:172
+Stack trace:
+#0 [internal function]: Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2016-08-26 15:29:27] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'MessageFormatter' not found' in /var/www/html/newproject/system/Core/Language.php:172
+Stack trace:
+#0 [internal function]: Exception\Handler->handleShutdown()
+#1 {main} [] []
